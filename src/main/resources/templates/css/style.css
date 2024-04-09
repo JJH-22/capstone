@@ -494,6 +494,9 @@ body {
 /*** Single Page End ***/
 
 /*** Login Page Start***/
+.loginContainer .header{
+    height: ;
+}
 
 .loginContainer {
     height: calc(100vh - 100px);
@@ -554,6 +557,10 @@ body {
 .social_sign_in li {
     margin: 10px;
 }
+
+.find_text{
+    color:#373737;
+}
 /*** Login Page End***/
 
 
@@ -569,8 +576,8 @@ body {
     align-items: center;
 }
 
-.footer .footer-item .btn-link:hover {
-    color: var(--bs-secondary) !important;
+.footer_item {
+    color: rgba(0, 0, 0, 0.3);
 }
 
 .footer .footer-item p.mb-4 {
